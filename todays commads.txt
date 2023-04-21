@@ -1,0 +1,103 @@
+ 432  touch hassan
+  433  git add .
+  434  git commit -m "my hassan"
+  435  git history
+  436  git reset --soft eb0b675
+  437  git status
+  438  git reset --mixed eb0b675
+  439  git status
+  440  git reset --hard eb0b675
+  441  git status
+  442  git reset --soft e9ef1b6
+  443  git status
+  444  git reset --mixed e9ef1b6
+  445  git status
+  446  git reset --hard e9ef1b6
+  447  git status
+  448  git history
+  449  git reflog
+  450  git checkout eb0b675
+  451  git history
+  452  git log
+  453  git checkout 26c09a2
+  454  git status
+  455  git bisect start
+  456  git bisect bad e9ef1b6
+  457  git bisect good 6bc5f5d
+  458  git history
+  459  git bisect reset
+  460  git history
+  461  ls
+  462  touch sample1
+  463  git add .
+  464  git commit -m "my 3rd commit"
+  465  git history
+  466  touch sample2
+  467  git add .
+  468  git commit -m " my 4th commit"
+  469  git status
+  470  git history
+  471  git status
+  472  git reset --soft 0515c62
+  473  git status
+  474  git reset --mixed 0515c62
+  475  git status
+  476  git reset --hard 0515c62
+  477  git history
+  478  git reflog
+  479  git status
+  480  git add .
+  481  git commit -m "latest"
+  482  git status
+  483  git checkout 0515c62
+  484  git history
+  485  git checkout 5ddf736
+  486  git history
+  487  clear
+  488  git checkout master
+  489  git history
+  490  git checkout dev1
+  491  git history
+  492  git checkout master
+  493  git cherrypick 4b20168
+  494  git cherry-pick 4b20168
+  495  git history
+  496  git cherry-pick 4b20168 0515c62
+  497  clear
+  498  git checkout dev1
+  499  git history
+  500  git bisect
+  501  git branch testing
+  502  git checkout testing
+  503  git history
+  504  git bisect
+  505  git bisect start
+  506  git bisect bad 4b20168
+  507  git bisect good c87c7f1
+  508  git history
+  509  git bisect reset
+  510  git history
+  511  clear
+  512  git history
+  513  git bisect start
+  514  git bisect 4b20168
+  515  git bisect c87c7f1
+  516  git history
+  517  git checkout dev1
+  518  git history
+  519  git bisect start
+  520  git bisect 6bc5f5d
+  521  clear
+  522  git history
+  523  git bisect start
+  524  git bisect bad 4b20168
+  525  git bisect good 6bc5f5d
+  526  git history
+  527  git clean -fdx
+  528  ls
+  529  cat test2
+  530  git bisect reset
+  531  git cherry-pick reset
+  532  git cherry-pick --help
+  533  git cherry-pick --abort
+  534  history
